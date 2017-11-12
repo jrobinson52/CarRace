@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Car Race</title>
+    <style>
+    hr {
+      height: 3px;
+      background-color: yellow;
+      border-style: none;
+      padding: 2px;
+    }
+    </style>
+  </head>
+  <body style="background-color:green;">
+    <div style="width: 100%; height: 400px; background-color: gray;">
+      <img id="red" src="./cars/red-car.png" width="200px"; style="position: relative; z-index: 2;" />
+      <hr />
+      <hr />
+      <img id="yellow" src="./cars/yellow-car.png" width="200px"; style="position: relative; z-index: 2;" />
+      <hr />
+      <hr />
+      <img id="green" src="./cars/green-car.jpg" width="200px"; style="position: relative; z-index: 2;" />
+      <br />
+      <img id="finish" src="./cars/checker.jpg" height="400px" style="position: absolute; top: 0px; right: 0%; z-index: 1" />
+    </div>
+    <div style="background-color: white; height: 22px">
+      <label id="lblred" style="font-size:larger" ></label>
+      <hr />
+      <hr />
+      <label id="lblyellow"  style="font-size:larger" ></label>
+      <hr />
+      <hr />
+      <label id="lblgreen"  style="font-size:larger" ></label>
+    </div>
+    <script src="car2.js">
+    </script>
+  </body>
+  </html>
